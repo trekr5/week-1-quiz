@@ -13,7 +13,7 @@ Move into the quiz folder:
 
 `cd week-1-quiz`
 
-For long-form answers, you can either answer in a separate text file, or write the answers directly into the question file.
+For long-form answers or very short (1-2 line) ruby answers, you can either answer in a separate text file, or write the answers directly into the question file.
 Make sure to clearly label which question you are answering.
 
 Some questions will refer to files. Please make your changes to the file specified.

@@ -22,22 +22,19 @@ and "" would be "a blank string"
 
 2) Here is an array:
 array = ["Molly", "Greg", "Taz"]
-Append the values "Jay" and "Mona" to the array.
+Write a line of ruby that appends the values "Jay" and "Mona" to the array.
 
 3) Here is a hash:
 hash = { :cow => "Moo", :sheep => "Baah" }
-Replace the value of the key :sheep with "Bleat".
+Write a line of ruby that replaces the value of the key :sheep with "Bleat".
 
-4) The following is a method definition that does nothing:
-def convert_number(number)
-  # ???
-end
+4) The file number_converter.rb contains a method called convert_number that doesn't do anything.
 
-Replace the #??? comment so that
+Replace the #??? comment inside it so that:
   if the argument passed is greater than 5, it returns 3 times the number,
   and if it is less than or equal to 5 it returns the number minus 3.
 
-5) Write a method that `puts` each word in a provided list, but in uppercase.
+5) Write a method that takes one argument (an array full of strings) and `puts` each word separately, but in uppercase.
 
 6) What's the difference between an object and an instance?
 
