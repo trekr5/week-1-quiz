@@ -1,0 +1,83 @@
+Weekly quiz
+===========
+
+It is expected that you will not have time to answer all questions. Try to answer at least one question from each section. (Questions nearer the top of each section are more important to know.)
+
+Ruby basics
+-----------
+
+1) Describe the following ruby objects:
+for instance [1,2,3] would be "an array containing three elements, the integer 1, the integer 2 and the integer 3"
+and "" would be "a blank string"
+
+1a) :crocodile
+
+1b) "145.73"
+
+1c) { :coffee => "cafe" }
+
+1d) [ :green, :eggs, :ham ]
+
+1e) ["tea", {"juice" => "orange"}]
+
+2) Here is an array:
+array = ["Molly", "Greg", "Taz"]
+Append the values "Jay" and "Mona" to the array.
+
+3) Here is a hash:
+hash = { :cow => "Moo", :sheep => "Baah" }
+Replace the value of the key :sheep with "Bleat".
+
+4) The following is a method definition that does nothing:
+def convert_number(number)
+  # ???
+end
+
+Replace the #??? comment so that
+  if the argument passed is greater than 5, it returns 3 times the number,
+  and if it is less than or equal to 5 it returns the number minus 3.
+
+5) Write a method that `puts` each word in a provided list, but in uppercase.
+
+6) What's the difference between an object and an instance?
+
+Testing
+-------
+7) robot.rb contains a simple class with two methods. robot_spec.rb is the start of a spec file - it runs, but there aren't any tests in it.
+
+a) Write a test that checks greet('Ada') returns the string "HELLO ADA".
+b) Write a test that checks calculate(4, 5) returns 9.
+c) Write a test that checks calculate(5, 'horse') returns 5.
+
+8) Explain the difference between the rspec methods let and subject.
+
+HTML, CSS and Javascript
+------------------------
+
+8) In a sentance, describe:
+a) what is HTML?
+b) what is CSS?
+c) what is Javascript?
+
+9) State if the following lines are HTML, CSS,or Javascript:
+
+a) <p>Lorem Ipsum</p>
+
+b) console.log("Some words");
+
+c) p { background-color: yellow }
+
+d) <table width="50%"></table>
+
+e) <div id="index" class="small left"></div>
+
+10) Describe the following Javascript objects, like you did for the first question:
+
+10a) 100.26
+
+10b) "Hello"
+
+10c) [ "a", 4, null ]
+
+10d) { height: "180cm" }
+
