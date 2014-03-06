@@ -11,22 +11,29 @@ for instance [1,2,3] would be "an array containing three elements, the integer 1
 and "" would be "a blank string"
 
 1a) :crocodile
+answer: symbol
 
 1b) "145.73"
+answer: string
 
 1c) { :coffee => "cafe" }
+answer: an array containing a hash which is a key/value
 
 1d) [ :green, :eggs, :ham ]
+answer: an array which contains three elements which are three symbols  
 
 1e) ["tea", {"juice" => "orange"}]
+answer: an array which has an element and hash as it's contents]
 
 2) Here is an array:
 array = ["Molly", "Greg", "Taz"]
 Write a line of ruby that appends the values "Jay" and "Mona" to the array.
+answer: array << "Mona" << "Jay"
 
 3) Here is a hash:
 hash = { :cow => "Moo", :sheep => "Baah" }
 Write a line of ruby that replaces the value of the key :sheep with "Bleat".
+answer: hash[:sheep] = "Bleat" 
 
 4) The file number_converter.rb contains a method called convert_number that doesn't do anything.
 
@@ -37,6 +44,7 @@ Replace the #??? comment inside it so that:
 5) Write a method that takes one argument (an array full of strings) and `puts` each word separately, but in uppercase.
 
 6) What's the difference between an object and an instance?
+answer: An object is a representation of the real world i.e. place, person, event and it has both characteristics and actions that it can perform. An instance is almost like a copy of this object and may have different characteristics and actions from the object. For an example an object can be a dog. For an example an object can be a dog  
 
 Testing
 -------
